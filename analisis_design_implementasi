@@ -5,17 +5,14 @@ LAPORAN PROYEK: SISTEM ABSENSI MAHASISWA BERBASIS GPS
 1. ANALISIS SISTEM
 --------------------------------------------------------------------------------
 1.1 Latar Belakang
-Sistem ini dirancang untuk mengatasi masalah ketidakefisienan dan potensi 
-kecurangan pada absensi konvensional. Dengan teknologi GPS (Global Positioning 
-System), absensi hanya dapat dilakukan jika mahasiswa berada dalam radius 
-gedung kampus yang sah (Geofencing).
+Sistem dirancang untuk mengatasi potensi kecurangan. Fokus pada transparansi data.
 
 1.2 Fitur Utama
 - Autentikasi Mahasiswa: Login aman bagi pengguna terdaftar.
 - Validasi Lokasi (GPS): Deteksi koordinat real-time (Latitude & Longitude).
-- Validasi Waktu: Penyesuaian absensi dengan jadwal perkuliahan.
-- Cloud Database: Penyimpanan data kehadiran secara otomatis dan terpusat.
-- Monitoring Panel: Dashboard bagi dosen dan admin untuk memantau laporan.
+- Validasi Waktu: Penyesuaian dengan jadwal perkuliahan.
+- Cloud Database: Penyimpanan otomatis dan terpusat.
+- Monitoring Panel: Dashboard spesifik bagi dosen untuk audit lokasi mahasiswa.
 
 1.3 Manfaat
 Meningkatkan akurasi data kehadiran, kedisiplinan mahasiswa, dan mempermudah 
@@ -49,8 +46,4 @@ Fase 3: Core Features (Coding logika Geofencing dan integrasi GPS API).
 Fase 4: Sprint & Debugging (Sinkronisasi modul dan perbaikan sistem).
 Fase 5: Testing & Evaluasi (Uji fungsionalitas dan simulasi lapangan).
 Fase 6: Finalisasi (Penyusunan laporan akhir dan dokumentasi).
-
-
-
-2026
-================================================================================
+ 
