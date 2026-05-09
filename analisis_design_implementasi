@@ -27,15 +27,15 @@ perubahan kebutuhan fungsional sistem.
 
 2.2 Pemodelan UML
 - Use Case Diagram: Melibatkan aktor Mahasiswa, Dosen, Admin, dan Sistem GPS.
-- Activity Diagram: Menjelaskan alur mulai dari Login, pengambilan koordinat 
-  GPS, verifikasi Geofencing, hingga penyimpanan status hadir.
+- Activity Diagram: Memperjelas alur verifikasi Geofencing dari login ke database.
 - Sequence Diagram: Interaksi antara antarmuka pengguna, Browser GPS API, 
   dan Database untuk validasi radius.
+- (Fitur UML lainnya tetap dipertahankan).
 
 2.3 Desain Antarmuka (UI/UX)
-- Konsep Clean & Professional dengan identitas warna kampus (Biru Tua).
 - Sidebar navigasi untuk akses cepat ke Dashboard, Jadwal, dan Riwayat.
-- Status Visual: Warna hijau untuk "Di dalam area" dan merah untuk "Di luar area".
+- Identitas visual: Menggunakan warna Biru Tua sesuai identitas kampus.
+- Status Visual: Indikator Hijau (In-area) dan Merah (Out-of-area) untuk memudahkan dosen.
 
 
 3. IMPLEMENTASI (WORK BREAKDOWN STRUCTURE)
